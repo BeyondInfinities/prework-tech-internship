@@ -15,8 +15,9 @@ h1 {
 }
 
 button{
-  padding: 10px;
-border-radius: 10px;
+  padding: 15px;
+  color:black
+   border-radius: 30px;
 }
 
 #gameButtonArea > button {
@@ -44,6 +45,12 @@ border-radius: 10px;
 #button4 {
     background: lightyellow;
 }
+#button5 {
+    background: violet;
+}
+#button6 {
+    background: #fed8b1;
+}
 
 #button1:active, #button1.lit {
     background:green;
@@ -59,4 +66,10 @@ border-radius: 10px;
 
 #button4:active, #button4.lit {
     background:yellow;
+}
+#button5:active, #button5.lit {
+    background:indigo;
+}
+#button6:active, #button6.lit {
+    background:orange;
 }
